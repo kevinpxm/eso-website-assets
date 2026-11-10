@@ -1,14 +1,16 @@
 # eso-website-assets
 
-Skripte für www.eso-anlage.de, ausgeliefert über jsDelivr.
+Skripte, Bildfolgen und Filme für www.eso-anlage.de, ausgeliefert über jsDelivr.
 
-- `hero3d.js` – interaktive 3D-Darstellung der ESO-Anlage im Hero-Bereich (enthält three.js, MIT-Lizenz)
-- `eso.min.js` – Seitenskript (Menü, Animationen, Darstellung der Anlage), minifiziert
+- `eso.min.js` – Seitenskript (Menü, Animationen, Rechner, Darstellung der Anlage), minifiziert
+- `hero3d.js` – interaktive 3D-Darstellung der ESO-Anlage (enthält three.js, MIT-Lizenz); Kopie unter `anlage/hero3d.js`, von `eso.min.js` geladen
+- `anlage/` – Bildfolgen der Anlage (`drehung/`, `explosion/`, `explosion-1000/`) und `explosion/anker.js`
+- `film/` – Filme und Standbilder
 
 Einbindung mit fester Version:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/kevinpxm/eso-website-assets@v1.0.0/eso.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/kevinpxm/eso-website-assets@v1.1.0/eso.min.js" defer></script>
 ```
 
-Die Dateien sind aus dem Projekt eso-markenupdate erzeugt und werden nicht von Hand geändert.
+Lizenzhinweis: `hero3d.js` enthält three.js (MIT-Lizenz, © three.js authors).
