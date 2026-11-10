@@ -11,7 +11,7 @@ Skripte, Bildfolgen und Filme für www.eso-anlage.de, ausgeliefert über jsDeliv
 Einbindung mit fester Version:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/kevinpxm/eso-website-assets@v1.2.0/eso.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/kevinpxm/eso-website-assets@v1.2.1/eso.min.js" defer></script>
 ```
 
 Lizenzhinweis: `hero3d.js` enthält three.js (MIT-Lizenz, © three.js authors).
